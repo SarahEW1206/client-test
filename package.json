@@ -1,0 +1,25 @@
+{
+  "name": "sassafrasbiz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.17.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-stylus": "^2.6.0",
+    "mongoose": "^4.7.0",
+    "nodemon": "^1.11.0"
+  }
+}

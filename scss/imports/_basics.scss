@@ -1,0 +1,19 @@
+html {
+	overflow: hidden;
+  	height: 100%;
+	  //above 2 values get rid of the "jump" of white space at top or bottom of page, combined with top 2 below.
+}
+
+body{
+	height: 100%;
+  	overflow: auto;
+	   //above 2 values get rid of the "jump" of white space at top or bottom of page, combined with top 2 above.
+}
+
+.pic {
+    width: 100%;
+	display: block;
+    margin-top: 2rem;
+	margin-left: auto;
+	margin-right: auto;
+}
