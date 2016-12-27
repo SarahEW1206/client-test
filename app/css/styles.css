@@ -7841,6 +7841,10 @@ body {
   background-color: white;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   overflow: hidden;
   height: 100%;
@@ -7857,6 +7861,85 @@ body {
   margin-top: 2rem;
   margin-left: auto;
   margin-right: auto;
+}
+
+code,
+pre {
+  font-family: "Share Tech Mono";
+  font-size: 0.8em;
+}
+
+.scene {
+  height: 140vh;
+  padding: 5vh 10vw;
+}
+
+.parallax {
+  background-size: cover;
+  box-sizing: border-box;
+  height: 130vh;
+  /* Since the parallax elements still consume space, we set the margin to undo
+     the height of this parallax element making it essentially consume 0 space.
+  */
+  margin-bottom: -130vh;
+}
+
+.header {
+  height: 50vh;
+}
+
+.parallax.header {
+  margin-bottom: -70vh;
+  margin-top: 100px;
+}
+
+p {
+  color: white;
+  margin: 1em 0;
+  z-index: 1;
+  position: relative;
+}
+
+.viewport {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+  -webkit-overflow-scrolling: touch;
+}
+
+.woods:not(.header),
+.sunset:not(.header) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sunset:not(.header) {
+  align-items: flex-end;
+}
+
+.solid {
+  z-index: 1;
+  position: relative;
+  height: 70vh;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.solid.star {
+  background-image: linear-gradient(#020227 0%, 99%, rgba(163, 177, 199, 0) 100%);
+  box-shadow: -10px -10px 20px #020227;
+}
+
+.solid.woods {
+  background-color: #698791;
+  box-shadow: -10px -10px 20px #698791;
 }
 
 /*# sourceMappingURL=styles.css.map */
