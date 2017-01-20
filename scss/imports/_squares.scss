@@ -1,0 +1,116 @@
+#grid {
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 2em;
+
+// @media (min-width: 400px) {
+//     width: 80%;
+// }
+
+}
+
+// #container {
+// padding: 0;
+// margin-top: .25em;
+// }
+
+#squareOne {
+    float: left;
+    background-color: rgb(0,155,188);
+    width: calc(100%/3);
+    padding-top: calc(100%/3); /* 1:1 Aspect Ratio */
+    position: relative; /* If you want text inside of it */
+    margin-right: 0;
+}
+
+#squareTwo {
+    float: left;
+    background-image: url("/app/images/beach.jpeg");
+    background-size: cover;
+    width: calc(100%/3);
+    padding-top: calc(100%/3); /* 1:1 Aspect Ratio */
+    position: relative; /* If you want text inside of it */
+    margin-left: 0;
+}
+
+#squareThree {
+    float: left;
+    background-color: rgb(246,201,0);
+    width: calc(100%/3);
+    padding-top: calc(100%/3); /* 1:1 Aspect Ratio */
+    position: relative; /* If you want text inside of it */
+}
+
+#squareFour {
+    float: left;
+    background-color: green;
+    background-image: url("/app/images/graffiti.jpeg");
+    background-size: cover;
+    width: calc(100%/3);
+    padding-top: calc(100%/3); /* 1:1 Aspect Ratio */
+    position: relative; /* If you want text inside of it */
+    margin-right: 0;
+}
+
+#squareFive {
+    float: left;
+    background-color: rgb(31,178,111);
+    width: calc(100%/3);
+    padding-top: calc(100%/3); /* 1:1 Aspect Ratio */
+    position: relative; /* If you want text inside of it */
+    margin-right: 0;
+}
+
+#squareSix {
+    float: left;
+    background-color: purple;
+    background-image: url("/app/images/blurleaves.jpeg");
+    background-size: cover;
+    width: calc(100%/3);
+    padding-top: calc(100%/3); /* 1:1 Aspect Ratio */
+    position: relative; /* If you want text inside of it */
+    margin-right: 0;
+}
+
+#squareSeven {
+    float: left;
+    background-color: deeppink;
+    width: calc(100%/3);
+    padding-top: calc(100%/3); /* 1:1 Aspect Ratio */
+    position: relative; /* If you want text inside of it */
+    margin-right: 0;
+}
+
+#squareEight {
+    float: left;
+    background-color: dimgray;
+    background-image: url("/app/images/typewriter.jpeg");
+    background-size: cover;
+    width: calc(100%/3);
+    padding-top: calc(100%/3); /* 1:1 Aspect Ratio */
+    position: relative; /* If you want text inside of it */
+    margin-right: 0;
+}
+
+#squareNine {
+    float: left;
+    background-color: rgb(123,123,123);
+    width: calc(100%/3);
+    padding-top: calc(100%/3); /* 1:1 Aspect Ratio */
+    position: relative; /* If you want text inside of it */
+    margin-right: 0;
+}
+/* If you want text inside of the container */
+.text#web {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    bottom: 0;
+    right: 0;
+    color: white;
+    font-family: "Futura, "Century Gothic", AppleGothic, sans-serif";
+   font-weight: lighter;
+   font-size: 150%;
+   letter-spacing: 2px;
+}

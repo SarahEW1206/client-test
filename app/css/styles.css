@@ -7750,12 +7750,190 @@ body {
   overflow: auto;
 }
 
+#wrapper {
+  width: 100%;
+}
+
+@media (min-width: 525px) {
+  #wrapper {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 650px) {
+  #wrapper {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 750px) {
+  #wrapper {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 900px) {
+  #wrapper {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1075px) {
+  #wrapper {
+    width: 45%;
+    margin: 0 auto;
+  }
+}
+
 #logo {
   display: block;
-  margin-top: 4em;
+  margin-top: 3em;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
+  width: 80%;
+}
+
+#socialDiv {
+  clear: both;
+  height: 80px;
+  width: 188px;
+  padding-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#facebook-square {
+  fill: #1fb26f;
+}
+
+#grid {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+#squareOne {
+  float: left;
+  background-color: #009bbc;
+  width: calc(100%/3);
+  padding-top: calc(100%/3);
+  /* 1:1 Aspect Ratio */
+  position: relative;
+  /* If you want text inside of it */
+  margin-right: 0;
+}
+
+#squareTwo {
+  float: left;
+  background-image: url("/app/images/beach.jpeg");
+  background-size: cover;
+  width: calc(100%/3);
+  padding-top: calc(100%/3);
+  /* 1:1 Aspect Ratio */
+  position: relative;
+  /* If you want text inside of it */
+  margin-left: 0;
+}
+
+#squareThree {
+  float: left;
+  background-color: #f6c900;
+  width: calc(100%/3);
+  padding-top: calc(100%/3);
+  /* 1:1 Aspect Ratio */
+  position: relative;
+  /* If you want text inside of it */
+}
+
+#squareFour {
+  float: left;
+  background-color: green;
+  background-image: url("/app/images/graffiti.jpeg");
+  background-size: cover;
+  width: calc(100%/3);
+  padding-top: calc(100%/3);
+  /* 1:1 Aspect Ratio */
+  position: relative;
+  /* If you want text inside of it */
+  margin-right: 0;
+}
+
+#squareFive {
+  float: left;
+  background-color: #1fb26f;
+  width: calc(100%/3);
+  padding-top: calc(100%/3);
+  /* 1:1 Aspect Ratio */
+  position: relative;
+  /* If you want text inside of it */
+  margin-right: 0;
+}
+
+#squareSix {
+  float: left;
+  background-color: purple;
+  background-image: url("/app/images/blurleaves.jpeg");
+  background-size: cover;
+  width: calc(100%/3);
+  padding-top: calc(100%/3);
+  /* 1:1 Aspect Ratio */
+  position: relative;
+  /* If you want text inside of it */
+  margin-right: 0;
+}
+
+#squareSeven {
+  float: left;
+  background-color: deeppink;
+  width: calc(100%/3);
+  padding-top: calc(100%/3);
+  /* 1:1 Aspect Ratio */
+  position: relative;
+  /* If you want text inside of it */
+  margin-right: 0;
+}
+
+#squareEight {
+  float: left;
+  background-color: dimgray;
+  background-image: url("/app/images/typewriter.jpeg");
+  background-size: cover;
+  width: calc(100%/3);
+  padding-top: calc(100%/3);
+  /* 1:1 Aspect Ratio */
+  position: relative;
+  /* If you want text inside of it */
+  margin-right: 0;
+}
+
+#squareNine {
+  float: left;
+  background-color: #7b7b7b;
+  width: calc(100%/3);
+  padding-top: calc(100%/3);
+  /* 1:1 Aspect Ratio */
+  position: relative;
+  /* If you want text inside of it */
+  margin-right: 0;
+}
+
+/* If you want text inside of the container */
+.text#web {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  bottom: 0;
+  right: 0;
+  color: white;
+  font-family: "Futura, " Century Gothic ", AppleGothic, sans-serif";
+  font-weight: lighter;
+  font-size: 150%;
+  letter-spacing: 2px;
 }
 
 #modalLogo {
