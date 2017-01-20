@@ -14,10 +14,11 @@ body{
 	   //above 2 values get rid of the "jump" of white space at top or bottom of page, combined with top 2 above.
 }
 
-.pic {
-    width: 100%;
+#logo {
 	display: block;
-    // margin-top: 2rem;
+	margin-top: 4em;
 	margin-left: auto;
 	margin-right: auto;
+	width: 60%;
 }
+
