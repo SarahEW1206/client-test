@@ -12,14 +12,29 @@ var app = angular.module('sassApp').
                     controller: "WebCtrl"
                 }).
 
+                when('/content', {
+                    template: '<content-page></content-page>',
+                    controller: "ContentCtrl"
+                }).
+
                 otherwise('/');
         }
     ]);
 
 app.controller("MainCtrl", function ($scope) {
     $scope.pageClass = "page-home";
+    $scope.pageBackground = "home-background"
+
 });
 
 app.controller("WebCtrl", function ($scope) {
     $scope.pageClass = "page-web";
+    $scope.pageBackground = "web-background";
+
+});
+
+app.controller("ContentCtrl", function ($scope) {
+    $scope.pageClass = "page-content";
+    $scope.pageBackground = "content-background";
+
 });

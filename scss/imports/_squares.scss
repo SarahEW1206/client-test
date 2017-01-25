@@ -1,12 +1,24 @@
-#grid {
+.grid {
 width: 100%;
 margin-left: auto;
 margin-right: auto;
 margin-top: 2em;
 
-// @media (min-width: 400px) {
-//     width: 80%;
-// }
+		@media (min-width: 525px) {
+		width: 80%;
+		}
+	@media (min-width: 650px) {
+		width: 70%;
+	}
+	@media (min-width: 750px) {
+		width: 60%;
+	}
+	@media (min-width: 900px) {
+		width: 50%;
+	}
+	@media (min-width: 1075px) {
+		width: 45%;
+	}
 
 }
 
@@ -44,7 +56,6 @@ margin-top: 2em;
 
 #squareFour {
     float: left;
-    background-color: green;
     background-image: url("/app/images/graffiti.jpeg");
     background-size: cover;
     width: calc(100%/3);
@@ -65,7 +76,7 @@ margin-top: 2em;
 #squareSix {
     float: left;
     // background-color: purple;
-    background-image: url("/app/images/blurleaves.jpeg");
+    background-image: url("/app/images/leaves.jpeg");
     background-size: cover;
     width: calc(100%/3);
     padding-top: calc(100%/3); /* 1:1 Aspect Ratio */
@@ -85,7 +96,7 @@ margin-top: 2em;
 #squareEight {
     float: left;
     background-color: dimgray;
-    background-image: url("/app/images/typewriter.jpeg");
+    background-image: url("/app/images/chalk.jpeg");
     background-size: cover;
     width: calc(100%/3);
     padding-top: calc(100%/3); /* 1:1 Aspect Ratio */

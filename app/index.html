@@ -17,6 +17,8 @@
     <script src="main-page/main.component.js"></script>
     <script src="web-page/web.module.js"></script>
     <script src="web-page/web.component.js"></script>
+    <script src="content-page/content.module.js"></script>
+    <script src="content-page/content.component.js"></script>
 
 
     <!-- Bootstrap CSS -->
@@ -35,7 +37,7 @@
         <a href="#!/"> <img id="logo" src="images/SBSLogo.svg" /></a>
 
         <article ng-app="sassApp">
-            <div ng-view class="page {{ pageClass }}"></div>
+            <div ng-view class="page {{ pageClass }} {{ pageBackground }}"></div>
         </article>
 
 

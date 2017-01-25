@@ -4,5 +4,6 @@ angular.module('sassApp', [
     'ngAnimate',
     'mainPage',
     'webPage',
+    'contentPage',
 
 ]);

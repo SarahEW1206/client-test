@@ -7757,6 +7757,24 @@ button.close {
   position: absolute;
 }
 
+.page-content {
+  position: absolute;
+}
+
+.home-background {
+  background-color: none;
+}
+
+.web-background {
+  background-image: url("/app/images/beach.jpeg");
+  background-size: cover;
+}
+
+.content-background {
+  background-image: url("/app/images/graffiti.jpeg");
+  background-size: cover;
+}
+
 .page-home.ng-leave {
   animation: slideOutLeft 1s both ease-in, fadeOut 1s;
 }
@@ -7773,12 +7791,20 @@ button.close {
   animation: slideInRight 1s both ease-in, fadeIn 1s;
 }
 
+.page-content.ng-leave {
+  animation: slideOutLeft 1s both ease-in, fadeOut 1s;
+}
+
+.page-content.ng-enter {
+  animation: slideInRight 1s both ease-in, fadeIn 1s;
+}
+
 @keyframes slideInRight {
   from {
-    transform: translateX(100%);
+    transform: translateY(100%);
   }
   to {
-    transform: translateX(0);
+    transform: translateY(0);
   }
 }
 
@@ -7793,10 +7819,10 @@ button.close {
 
 @keyframes slideOutLeft {
   from {
-    transform: translateX(0);
+    transform: translateY(0);
   }
   to {
-    transform: translateX(-100%);
+    transform: translateY(-100%);
   }
 }
 
@@ -7825,45 +7851,16 @@ body {
 
 #wrapper {
   width: 100%;
-}
-
-@media (min-width: 525px) {
-  #wrapper {
-    width: 80%;
-    margin: 0 auto;
-  }
-}
-
-@media (min-width: 650px) {
-  #wrapper {
-    width: 70%;
-    margin: 0 auto;
-  }
-}
-
-@media (min-width: 750px) {
-  #wrapper {
-    width: 60%;
-    margin: 0 auto;
-  }
-}
-
-@media (min-width: 900px) {
-  #wrapper {
-    width: 50%;
-    margin: 0 auto;
-  }
-}
-
-@media (min-width: 1075px) {
-  #wrapper {
-    width: 45%;
-    margin: 0 auto;
-  }
+  height: 100%;
 }
 
 article {
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 #logo {
@@ -7872,6 +7869,36 @@ article {
   margin-left: auto;
   margin-right: auto;
   width: 80%;
+}
+
+@media (min-width: 525px) {
+  #logo {
+    width: 80%;
+  }
+}
+
+@media (min-width: 650px) {
+  #logo {
+    width: 70%;
+  }
+}
+
+@media (min-width: 750px) {
+  #logo {
+    width: 60%;
+  }
+}
+
+@media (min-width: 900px) {
+  #logo {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1075px) {
+  #logo {
+    width: 45%;
+  }
 }
 
 #socialDiv {
@@ -7887,11 +7914,41 @@ article {
   fill: #1fb26f;
 }
 
-#grid {
+.grid {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 2em;
+}
+
+@media (min-width: 525px) {
+  .grid {
+    width: 80%;
+  }
+}
+
+@media (min-width: 650px) {
+  .grid {
+    width: 70%;
+  }
+}
+
+@media (min-width: 750px) {
+  .grid {
+    width: 60%;
+  }
+}
+
+@media (min-width: 900px) {
+  .grid {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1075px) {
+  .grid {
+    width: 45%;
+  }
 }
 
 #squareOne {
@@ -7929,7 +7986,6 @@ article {
 
 #squareFour {
   float: left;
-  background-color: green;
   background-image: url("/app/images/graffiti.jpeg");
   background-size: cover;
   width: calc(100%/3);
@@ -7953,7 +8009,7 @@ article {
 
 #squareSix {
   float: left;
-  background-image: url("/app/images/blurleaves.jpeg");
+  background-image: url("/app/images/leaves.jpeg");
   background-size: cover;
   width: calc(100%/3);
   padding-top: calc(100%/3);
@@ -7977,7 +8033,7 @@ article {
 #squareEight {
   float: left;
   background-color: dimgray;
-  background-image: url("/app/images/typewriter.jpeg");
+  background-image: url("/app/images/chalk.jpeg");
   background-size: cover;
   width: calc(100%/3);
   padding-top: calc(100%/3);
@@ -8010,6 +8066,90 @@ article {
   font-weight: lighter;
   font-size: 150%;
   letter-spacing: 2px;
+}
+
+.grid#webSquare {
+  background-color: #009bbc;
+  width: 100%;
+  padding-top: 100%;
+  margin-top: 0;
+}
+
+@media (min-width: 525px) {
+  .grid#webSquare {
+    width: 80%;
+    padding-top: 80%;
+  }
+}
+
+@media (min-width: 650px) {
+  .grid#webSquare {
+    width: 70%;
+    padding-top: 70%;
+  }
+}
+
+@media (min-width: 750px) {
+  .grid#webSquare {
+    width: 60%;
+    padding-top: 60%;
+  }
+}
+
+@media (min-width: 900px) {
+  .grid#webSquare {
+    width: 50%;
+    padding-top: 50%;
+  }
+}
+
+@media (min-width: 1075px) {
+  .grid#webSquare {
+    width: 45%;
+    padding-top: 45%;
+  }
+}
+
+.grid#contentSquare {
+  background-color: #f6c900;
+  width: 100%;
+  padding-top: 100%;
+  margin-top: 0;
+}
+
+@media (min-width: 525px) {
+  .grid#contentSquare {
+    width: 80%;
+    padding-top: 80%;
+  }
+}
+
+@media (min-width: 650px) {
+  .grid#contentSquare {
+    width: 70%;
+    padding-top: 70%;
+  }
+}
+
+@media (min-width: 750px) {
+  .grid#contentSquare {
+    width: 60%;
+    padding-top: 60%;
+  }
+}
+
+@media (min-width: 900px) {
+  .grid#contentSquare {
+    width: 50%;
+    padding-top: 50%;
+  }
+}
+
+@media (min-width: 1075px) {
+  .grid#contentSquare {
+    width: 45%;
+    padding-top: 45%;
+  }
 }
 
 #modalLogo {

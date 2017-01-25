@@ -6,12 +6,29 @@
 .page.ng-leave  { z-index:9999; }
 .page.ng-enter  { z-index:8888; }
 
+
 .page-home      { 
     position: absolute;
     }
 .page-web     { 
     position: absolute;
     }
+.page-content     { 
+    position: absolute;
+    }
+
+
+.home-background {
+    background-color: none;
+}
+.web-background {
+    background-image: url("/app/images/beach.jpeg");
+    background-size: cover;
+}
+.content-background {
+    background-image: url("/app/images/graffiti.jpeg");
+    background-size: cover;
+}
 
 
 .page-home.ng-leave         {
@@ -24,14 +41,20 @@
 .page-web.ng-leave         {
     animation: slideOutLeft 1s both ease-in, fadeOut 1s;
 }
-
 .page-web.ng-enter         {  
     animation: slideInRight 1s both ease-in, fadeIn 1s;  
 }
 
+.page-content.ng-leave         {
+    animation: slideOutLeft 1s both ease-in, fadeOut 1s;
+}
+.page-content.ng-enter         {  
+    animation: slideInRight 1s both ease-in, fadeIn 1s;  
+}
+
 @keyframes slideInRight {
-    from    { transform:translateX(100%); }
-    to      { transform: translateX(0); }
+    from    { transform:translateY(100%); }
+    to      { transform: translateY(0); }
 }
 
 @keyframes fadeIn {
@@ -40,8 +63,8 @@
 }
 
 @keyframes slideOutLeft {
-    from    { transform:translateX(0); }
-    to      { transform: translateX(-100%); }
+    from    { transform:translateY(0); }
+    to      { transform: translateY(-100%); }
 }
 
 @keyframes fadeOut {

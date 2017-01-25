@@ -14,46 +14,46 @@ body{
 	   //above 2 values get rid of the "jump" of white space at top or bottom of page, combined with top 2 above.
 }
 
+
 #wrapper {
 	width: 100%;
-
-	@media (min-width: 525px) {
-		width: 80%;
-		margin: 0 auto;
-	}
-
-	@media (min-width: 650px) {
-		width: 70%;
-		margin: 0 auto;
-	}
-	
-	@media (min-width: 750px) {
-		width: 60%;
-		margin: 0 auto;
-	}
-	@media (min-width: 900px) {
-		width: 50%;
-		margin: 0 auto;
-	}
-
-	@media (min-width: 1075px) {
-		width: 45%;
-		margin: 0 auto;
-	}
+	height: 100%;
 
 }
 
 article {
+	margin-top: 2rem;
+	margin-left: auto;
+	margin-right: auto;
 	position: relative;
+	width: 100%;
+	height: 100%;
 }
-
-
 #logo {
 	display: block;
 	margin-top: 3em;
 	margin-left: auto;
 	margin-right: auto;
 	width: 80%;
+
+		@media (min-width: 525px) {
+		width: 80%;
+	}
+
+	@media (min-width: 650px) {
+		width: 70%;
+	}
+	
+	@media (min-width: 750px) {
+		width: 60%;
+	}
+	@media (min-width: 900px) {
+		width: 50%;
+	}
+
+	@media (min-width: 1075px) {
+		width: 45%;
+	}
 }
 
 // #container{
