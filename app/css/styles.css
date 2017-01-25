@@ -7865,39 +7865,60 @@ article {
 
 #logo {
   display: block;
-  margin-top: 3em;
+  margin-top: 2em;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
 }
 
-@media (min-width: 525px) {
-  #logo {
-    width: 80%;
-  }
-}
-
-@media (min-width: 650px) {
-  #logo {
-    width: 70%;
-  }
-}
-
-@media (min-width: 750px) {
-  #logo {
-    width: 60%;
-  }
-}
-
-@media (min-width: 900px) {
+@media (min-width: 700px) {
   #logo {
     width: 50%;
   }
 }
 
+@media (min-width: 900px) {
+  #logo {
+    width: 40%;
+  }
+}
+
 @media (min-width: 1075px) {
   #logo {
-    width: 45%;
+    width: 25%;
+  }
+}
+
+p.title {
+  position: relative;
+  margin-top: -95%;
+  margin-left: 5%;
+  color: white;
+  font-family: "Futura, " Century Gothic ", AppleGothic, sans-serif";
+  font-weight: lighter;
+  font-size: 150%;
+  letter-spacing: 2px;
+}
+
+p.description {
+  margin-left: 5%;
+  margin-right: 5%;
+  color: white;
+  font-family: "Futura, " Century Gothic ", AppleGothic, sans-serif";
+  font-weight: lighter;
+  font-size: 100%;
+  letter-spacing: 2px;
+}
+
+.thumb {
+  width: 30%;
+  margin-top: .5rem;
+  margin-left: 5%;
+}
+
+@media (min-width: 525px) {
+  .thumb {
+    width: 25%;
   }
 }
 
@@ -7918,36 +7939,11 @@ article {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 2em;
 }
 
-@media (min-width: 525px) {
-  .grid {
-    width: 80%;
-  }
-}
-
-@media (min-width: 650px) {
-  .grid {
-    width: 70%;
-  }
-}
-
-@media (min-width: 750px) {
-  .grid {
-    width: 60%;
-  }
-}
-
-@media (min-width: 900px) {
+@media (min-width: 700px) {
   .grid {
     width: 50%;
-  }
-}
-
-@media (min-width: 1075px) {
-  .grid {
-    width: 45%;
   }
 }
 
@@ -8055,7 +8051,7 @@ article {
 }
 
 /* If you want text inside of the container */
-.text#web {
+.text {
   position: absolute;
   top: 20%;
   left: 10%;
@@ -8075,38 +8071,10 @@ article {
   margin-top: 0;
 }
 
-@media (min-width: 525px) {
-  .grid#webSquare {
-    width: 80%;
-    padding-top: 80%;
-  }
-}
-
-@media (min-width: 650px) {
-  .grid#webSquare {
-    width: 70%;
-    padding-top: 70%;
-  }
-}
-
-@media (min-width: 750px) {
-  .grid#webSquare {
-    width: 60%;
-    padding-top: 60%;
-  }
-}
-
-@media (min-width: 900px) {
+@media (min-width: 700px) {
   .grid#webSquare {
     width: 50%;
     padding-top: 50%;
-  }
-}
-
-@media (min-width: 1075px) {
-  .grid#webSquare {
-    width: 45%;
-    padding-top: 45%;
   }
 }
 
@@ -8117,38 +8085,10 @@ article {
   margin-top: 0;
 }
 
-@media (min-width: 525px) {
-  .grid#contentSquare {
-    width: 80%;
-    padding-top: 80%;
-  }
-}
-
-@media (min-width: 650px) {
-  .grid#contentSquare {
-    width: 70%;
-    padding-top: 70%;
-  }
-}
-
-@media (min-width: 750px) {
-  .grid#contentSquare {
-    width: 60%;
-    padding-top: 60%;
-  }
-}
-
-@media (min-width: 900px) {
+@media (min-width: 700px) {
   .grid#contentSquare {
     width: 50%;
     padding-top: 50%;
-  }
-}
-
-@media (min-width: 1075px) {
-  .grid#contentSquare {
-    width: 45%;
-    padding-top: 45%;
   }
 }
 
