@@ -7736,6 +7736,79 @@ button.close {
   }
 }
 
+.page {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.page.ng-leave {
+  z-index: 9999;
+}
+
+.page.ng-enter {
+  z-index: 8888;
+}
+
+.page-home {
+  position: absolute;
+}
+
+.page-web {
+  position: absolute;
+}
+
+.page-home.ng-leave {
+  animation: slideOutLeft 1s both ease-in, fadeOut 1s;
+}
+
+.page-home.ng-enter {
+  animation: slideInRight 1s both ease-in, fadeIn 1s;
+}
+
+.page-web.ng-leave {
+  animation: slideOutLeft 1s both ease-in, fadeOut 1s;
+}
+
+.page-web.ng-enter {
+  animation: slideInRight 1s both ease-in, fadeIn 1s;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0.0;
+  }
+  to {
+    opacity: 1.0;
+  }
+}
+
+@keyframes slideOutLeft {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1.0;
+  }
+  to {
+    opacity: 0.0;
+  }
+}
+
 * {
   box-sizing: border-box;
 }
@@ -7787,6 +7860,10 @@ body {
     width: 45%;
     margin: 0 auto;
   }
+}
+
+article {
+  position: relative;
 }
 
 #logo {
@@ -7876,7 +7953,6 @@ body {
 
 #squareSix {
   float: left;
-  background-color: purple;
   background-image: url("/app/images/blurleaves.jpeg");
   background-size: cover;
   width: calc(100%/3);

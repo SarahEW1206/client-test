@@ -1,0 +1,3 @@
+angular.module('webPage', [
+    'ngAnimate',
+]);

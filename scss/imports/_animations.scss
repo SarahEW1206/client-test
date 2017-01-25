@@ -9,18 +9,10 @@
 .page-home      { 
     position: absolute;
     }
-.page-detail     { 
+.page-web     { 
     position: absolute;
     }
-.page-needed     { 
-    position: absolute;
-    }
-.page-purchased     { 
-    position: absolute;
-    }    
-.image-gallery     { 
-    position: absolute;
-    }
+
 
 .page-home.ng-leave         {
     animation: slideOutLeft 1s both ease-in, fadeOut 1s;
@@ -29,35 +21,11 @@
     animation: slideInRight 1s both ease-in, fadeIn 1s;  
 }
 
-.page-detail.ng-leave         {
+.page-web.ng-leave         {
     animation: slideOutLeft 1s both ease-in, fadeOut 1s;
 }
 
-.page-detail.ng-enter         {  
-    animation: slideInRight 1s both ease-in, fadeIn 1s;  
-}
-
-.page-needed.ng-leave         {
-    animation: slideOutLeft 1s both ease-in, fadeOut 1s;
-}
-
-.page-needed.ng-enter         {  
-    animation: slideInRight 1s both ease-in, fadeIn 1s;  
-}
-
-.page-purchased.ng-leave         {
-    animation: slideOutLeft 1s both ease-in, fadeOut 1s;
-}
-
-.page-purchased.ng-enter         {  
-    animation: slideInRight 1s both ease-in, fadeIn 1s;  
-}
-
-.image-gallery.ng-leave         {
-    animation: slideOutLeft 1s both ease-in, fadeOut 1s;
-}
-
-.image-gallery.ng-enter         {  
+.page-web.ng-enter         {  
     animation: slideInRight 1s both ease-in, fadeIn 1s;  
 }
 
