@@ -7780,7 +7780,7 @@ button.close {
 }
 
 .brand-background {
-  background-image: url("/app/images/leaves.jpeg");
+  background-image: url("/app/images/wildflowers.jpg");
   background-size: cover;
 }
 
@@ -8054,7 +8054,7 @@ p.description {
 
 #squareSix {
   float: left;
-  background-image: url("/app/images/leaves.jpeg");
+  background-image: url("/app/images/wildflowers.jpg");
   background-size: cover;
   width: calc(100%/3);
   padding-top: calc(100%/3);
