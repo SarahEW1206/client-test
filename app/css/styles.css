@@ -7761,6 +7761,10 @@ button.close {
   position: absolute;
 }
 
+.page-brand {
+  position: absolute;
+}
+
 .home-background {
   background-color: none;
 }
@@ -7772,6 +7776,11 @@ button.close {
 
 .content-background {
   background-image: url("/app/images/graffiti.jpeg");
+  background-size: cover;
+}
+
+.brand-background {
+  background-image: url("/app/images/leaves.jpeg");
   background-size: cover;
 }
 
@@ -7799,6 +7808,14 @@ button.close {
   animation: slideInRight 1s both ease-in, fadeIn 1s;
 }
 
+.page-brand.ng-leave {
+  animation: slideOutLeft 1s both ease-in, fadeOut 1s;
+}
+
+.page-brand.ng-enter {
+  animation: slideInRight 1s both ease-in, fadeIn 1s;
+}
+
 @keyframes slideInRight {
   from {
     transform: translateY(100%);
@@ -7818,10 +7835,13 @@ button.close {
 }
 
 @keyframes slideOutLeft {
-  from {
+  0% {
     transform: translateY(0);
   }
-  to {
+  10% {
+    transform: translateY(5%);
+  }
+  100% {
     transform: translateY(-100%);
   }
 }
@@ -7889,13 +7909,42 @@ article {
   }
 }
 
-p.title {
+ul.quickNav {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
   position: relative;
-  margin-top: -95%;
+  margin-top: -99.7%;
+  font-family: "Futura, " Century Gothic ", AppleGothic, sans-serif";
+  font-weight: lighter;
+  font-size: 100%;
+  letter-spacing: 2px;
+}
+
+ul.quickNav li {
+  list-style: none;
+  font-weight: lighter;
+}
+
+ul.quickNav a {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  font-weight: lighter;
+  text-decoration: none;
+  background-color: white;
+  margin-right: 1px;
+}
+
+ul.quickNav a#last {
+  margin-right: 0px;
+}
+
+p.title {
   margin-left: 5%;
   color: white;
   font-family: "Futura, " Century Gothic ", AppleGothic, sans-serif";
-  font-weight: lighter;
+  font-weight: 300;
   font-size: 150%;
   letter-spacing: 2px;
 }
@@ -7907,7 +7956,7 @@ p.description {
   font-family: "Futura, " Century Gothic ", AppleGothic, sans-serif";
   font-weight: lighter;
   font-size: 100%;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
 }
 
 .thumb {
@@ -8065,7 +8114,7 @@ p.description {
 }
 
 .grid#webSquare {
-  background-color: #009bbc;
+  background-color: rgba(0, 155, 188, 0.9);
   width: 100%;
   padding-top: 100%;
   margin-top: 0;
@@ -8078,8 +8127,13 @@ p.description {
   }
 }
 
+.grid#webSquare ul.quickNav a:hover {
+  background-color: rgba(0, 155, 188, 0);
+  color: white;
+}
+
 .grid#contentSquare {
-  background-color: #f6c900;
+  background-color: rgba(246, 201, 0, 0.9);
   width: 100%;
   padding-top: 100%;
   margin-top: 0;
@@ -8090,6 +8144,30 @@ p.description {
     width: 50%;
     padding-top: 50%;
   }
+}
+
+.grid#contentSquare ul.quickNav a:hover {
+  background-color: rgba(246, 201, 0, 0);
+  color: white;
+}
+
+.grid#brandSquare {
+  background-color: rgba(31, 178, 111, 0.9);
+  width: 100%;
+  padding-top: 100%;
+  margin-top: 0;
+}
+
+@media (min-width: 700px) {
+  .grid#brandSquare {
+    width: 50%;
+    padding-top: 50%;
+  }
+}
+
+.grid#brandSquare ul.quickNav a:hover {
+  background-color: rgba(31, 178, 111, 0);
+  color: white;
 }
 
 #modalLogo {

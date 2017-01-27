@@ -1,5 +1,5 @@
-.grid#webSquare {
-background-color: rgba(0,155,188,.9);
+.grid#brandSquare {
+background-color: rgba(31,178,111,.9);
 width: 100%;
 padding-top: 100%;
 margin-top: 0;
@@ -10,7 +10,7 @@ margin-top: 0;
 		}
 }
 
- .grid#webSquare ul.quickNav a:hover {
-	background-color: rgba(0,155,188,0);
+ .grid#brandSquare ul.quickNav a:hover {
+	background-color: rgba(31,178,111,0);
 	color: white;
 }

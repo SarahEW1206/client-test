@@ -16,6 +16,10 @@ var app = angular.module('sassApp').
                     template: '<content-page></content-page>',
                     controller: "ContentCtrl"
                 }).
+                when('/brand', {
+                    template: '<brand-page></brand-page>',
+                    controller: "BrandCtrl"
+                }).
 
                 otherwise('/');
         }
@@ -36,5 +40,11 @@ app.controller("WebCtrl", function ($scope) {
 app.controller("ContentCtrl", function ($scope) {
     $scope.pageClass = "page-content";
     $scope.pageBackground = "content-background";
+
+});
+
+app.controller("BrandCtrl", function ($scope) {
+    $scope.pageClass = "page-brand";
+    $scope.pageBackground = "brand-background";
 
 });
