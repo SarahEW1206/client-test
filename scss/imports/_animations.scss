@@ -19,6 +19,9 @@
 .page-brand     { 
     position: absolute;
     }
+.page-design     { 
+    position: absolute;
+    }
 
 
 .home-background {
@@ -36,6 +39,11 @@
     background-image: url("/app/images/wildflowers.jpg");
     background-size: cover;
 }
+.design-background {
+    background-image: url("/app/images/chalk.jpeg");
+    background-size: cover;
+}
+
 
 .page-home.ng-leave         {
     animation: slideOutLeft 1s both ease-in, fadeOut 1s;
@@ -62,6 +70,13 @@
     animation: slideOutLeft 1s both ease-in, fadeOut 1s;
 }
 .page-brand.ng-enter         {  
+    animation: slideInRight 1s both ease-in, fadeIn 1s;  
+}
+
+.page-design.ng-leave         {
+    animation: slideOutLeft 1s both ease-in, fadeOut 1s;
+}
+.page-design.ng-enter         {  
     animation: slideInRight 1s both ease-in, fadeIn 1s;  
 }
 

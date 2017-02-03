@@ -7765,6 +7765,10 @@ button.close {
   position: absolute;
 }
 
+.page-design {
+  position: absolute;
+}
+
 .home-background {
   background-color: none;
 }
@@ -7781,6 +7785,11 @@ button.close {
 
 .brand-background {
   background-image: url("/app/images/wildflowers.jpg");
+  background-size: cover;
+}
+
+.design-background {
+  background-image: url("/app/images/chalk.jpeg");
   background-size: cover;
 }
 
@@ -7813,6 +7822,14 @@ button.close {
 }
 
 .page-brand.ng-enter {
+  animation: slideInRight 1s both ease-in, fadeIn 1s;
+}
+
+.page-design.ng-leave {
+  animation: slideOutLeft 1s both ease-in, fadeOut 1s;
+}
+
+.page-design.ng-enter {
   animation: slideInRight 1s both ease-in, fadeIn 1s;
 }
 
@@ -8021,7 +8038,7 @@ p.description {
 
 #squareThree {
   float: left;
-  background-color: #f6c900;
+  background-color: #765886;
   width: calc(100%/3);
   padding-top: calc(100%/3);
   /* 1:1 Aspect Ratio */
@@ -8133,7 +8150,7 @@ p.description {
 }
 
 .grid#contentSquare {
-  background-color: rgba(246, 201, 0, 0.9);
+  background-color: rgba(118, 88, 134, 0.9);
   width: 100%;
   padding-top: 100%;
   margin-top: 0;
@@ -8167,6 +8184,25 @@ p.description {
 
 .grid#brandSquare ul.quickNav a:hover {
   background-color: rgba(31, 178, 111, 0);
+  color: white;
+}
+
+.grid#designSquare {
+  background-color: rgba(255, 20, 147, 0.9);
+  width: 100%;
+  padding-top: 100%;
+  margin-top: 0;
+}
+
+@media (min-width: 700px) {
+  .grid#designSquare {
+    width: 50%;
+    padding-top: 50%;
+  }
+}
+
+.grid#designSquare ul.quickNav a:hover {
+  background-color: rgba(246, 201, 0, 0);
   color: white;
 }
 
