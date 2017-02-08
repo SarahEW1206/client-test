@@ -22,6 +22,9 @@
 .page-design     { 
     position: absolute;
     }
+.page-contact     { 
+    position: absolute;
+    }
 
 
 .home-background {
@@ -41,6 +44,11 @@
 }
 .design-background {
     background-image: url("/app/images/chalk.jpeg");
+    background-size: cover;
+}
+
+.contact-background {
+    background-image: url("/app/images/typewriter.jpeg");
     background-size: cover;
 }
 
@@ -77,6 +85,13 @@
     animation: slideOutLeft 1s both ease-in, fadeOut 1s;
 }
 .page-design.ng-enter         {  
+    animation: slideInRight 1s both ease-in, fadeIn 1s;  
+}
+
+.page-contact.ng-leave         {
+    animation: slideOutLeft 1s both ease-in, fadeOut 1s;
+}
+.page-contact.ng-enter         {  
     animation: slideInRight 1s both ease-in, fadeIn 1s;  
 }
 

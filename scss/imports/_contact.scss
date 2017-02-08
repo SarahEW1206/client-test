@@ -1,0 +1,16 @@
+.grid#contactSquare {
+background-color: rgba(123,123,123,.9);
+width: 100%;
+padding-top: 100%;
+margin-top: 0;
+
+@media (min-width: 700px) {
+		width: 50%;
+        padding-top: 50%;
+		}
+}
+
+ .grid#contactSquare ul.quickNav a:hover {
+	background-color: rgba(123,123,123,0);
+	color: white;
+}

@@ -7,5 +7,6 @@ angular.module('sassApp', [
     'contentPage',
     'brandPage',
     'designPage',
+    'contactPage',
 
 ]);
