@@ -21,7 +21,27 @@
     <p class="title">CONTACT</p>
 
     <p class="description">
-        hkjhkjh
+        Please don't hesitate to contact me.
     </p>
+    <form method="post" name="myemailform" action="/app/form-to-email.php">
+        <p class="form"><input type="email" name="email" required="true" placeholder="Email"></input>
+        </p>
+        <p class="form"><input type="text" name="firstName" required="true" placeholder="First"></input>
+        </p>
+        <p class="form"><input type="text" name="lastName" required="true" placeholder="Last"></input>
+        </p>
+        <p class="form"><textarea name="message" required="false" placeholder="Message"></textarea>
+        </p>
+        <input type="submit" name='submit' value="submit"></input>
+    </form>
+    <script language="JavaScript">
+        // Code for validating the form
+        // Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
+        // for details
+        var frmvalidator = new Validator("myemailform");
+        frmvalidator.addValidation("name", "req", "Please provide your name");
+        frmvalidator.addValidation("email", "req", "Please provide your email");
+        frmvalidator.addValidation("email", "email", "Please enter a valid email address"); 
+    </script>
 
 </div>

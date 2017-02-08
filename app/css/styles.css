@@ -7975,6 +7975,7 @@ ul.quickNav a#last {
 }
 
 p.title {
+  padding-top: 2rem;
   margin-left: 5%;
   color: white;
   font-family: "Futura, " Century Gothic ", AppleGothic, sans-serif";
@@ -8227,9 +8228,9 @@ p.description {
 }
 
 .grid#contactSquare {
-  background-color: rgba(123, 123, 123, 0.8);
-  width: 100%;
-  padding-top: 100%;
+  background-color: rgba(123, 123, 123, 0.9);
+  width: 101%;
+  padding-top: 101%;
   margin-top: 0;
 }
 
@@ -8243,6 +8244,28 @@ p.description {
 .grid#contactSquare ul.quickNav a:hover {
   background-color: rgba(123, 123, 123, 0);
   color: white;
+}
+
+span.bolder {
+  font-weight: bolder;
+  margin-left: 5%;
+}
+
+input {
+  margin-left: 5%;
+  border-radius: 5px;
+  width: 60%;
+}
+
+textarea {
+  margin-left: 5%;
+  border-radius: 5px;
+  width: 60%;
+  border: none;
+}
+
+#submit {
+  width: 20%;
 }
 
 #modalLogo {
