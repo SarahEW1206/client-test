@@ -8248,6 +8248,7 @@ p.description {
 
 span.bolder {
   font-weight: bolder;
+  color: #1fb26f;
 }
 
 input {
@@ -8264,8 +8265,13 @@ textarea {
   border: none;
 }
 
-#submit {
-  width: 20%;
+#emailLink {
+  color: white;
+  text-decoration: none;
+}
+
+#emailLink:hover {
+  font-weight: bolder;
 }
 
 #modalLogo {

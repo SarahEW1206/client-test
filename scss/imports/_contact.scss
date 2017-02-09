@@ -17,6 +17,7 @@ margin-top: 0;
 
 span.bolder {
 	font-weight: bolder;
+	color: rgb(31,178,111);
 }
 
 input {
@@ -33,6 +34,17 @@ textarea {
 	border: none;
 }
 
-#submit {
-	width: 20%;
+#emailLink {
+	color: white;
+	text-decoration: none;
 }
+
+#emailLink:hover {
+	font-weight: bolder;
+}
+
+// #submit {
+// 	width: 20%;
+// }
+
+
