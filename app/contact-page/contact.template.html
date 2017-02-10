@@ -1,3 +1,5 @@
+<script language="JavaScript" src="scripts/gen_validatorv31.js" type="text/javascript"></script>
+
 <div class="grid" id="contactSquare">
 
     <ul class="quickNav">
@@ -24,15 +26,40 @@
         Let's talk about how I can help you!
     </p>
 
-    <p class="description">
-        <span class="bolder">Email:</span><a id="emailLink" href="mailto:sarah@sassafrasbiz.com?Subject=Hello!" target="_blank"> Sarah@SassafrasBiz.com</a>
-    </p>
-    <p class="description">
-        <span class="bolder">Phone:</span> 914.409.6775
-    </p>
+    <form method="POST" name="contactform" action="contact-form-handler.php">
+        <p class="description">
+            <label for='name'>Your Name:</label> <br>
+            <input type="text" name="name">
+        </p>
+        <p class="description">
+            <label for='email'>Email Address:</label> <br>
+            <input type="text" name="email"> <br>
+        </p>
+        <p class="description">
+            <label for='message'>Message:</label> <br>
+            <textarea name="message"></textarea>
+        </p>
+        <input id="submit" type="submit" value="Submit"><br>
+    </form>
 
-    <p class="title">Find me online:</p>
-    <p class="description"><a href='https://www.facebook.com/sassafrasbiz/' target='_blank'><svg id="facebook-square" class="custom-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    <script language="JavaScript">
+        // Code for validating the form
+        // Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
+        // for details
+        var frmvalidator = new Validator("contactform");
+        frmvalidator.addValidation("name", "req", "Please provide your name");
+        frmvalidator.addValidation("email", "req", "Please provide your email");
+        frmvalidator.addValidation("email", "email", "Please enter a valid email address"); 
+    </script>
+<!--
+Sample code from:
+http://www.html-form-guide.com/contact-form/php-email-contact-form.html
+-->
+
+
+
+<p class="title">Find me online:</p>
+<div id="contactSocial"><a href='https://www.facebook.com/sassafrasbiz/' target='_blank'><svg id="facebook-square" class="custom-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
             viewBox="0 0 100 100" style="height:60px;width:60px;"><circle class="outer-shape" cx="50" cy="50" r="48" style="opacity: 1; fill: rgba(31,178,111,.9);"></circle>
 <path class="inner-shape" style="opacity:1;fill:#f7f7f7;" transform="translate(25,25) scale(0.5)" d="M82.667,1H17.335C8.351,1,1,8.351,1,17.336v65.329c0,8.99,7.351,16.335,16.334,16.335h65.332
 C91.652,99.001,99,91.655,99,82.665V17.337C99,8.353,91.652,1.001,82.667,1L82.667,1z M84.318,50H68.375v42.875H50V50h-8.855V35.973
@@ -48,22 +75,6 @@ c7.612,0,13.782,6.856,13.782,15.312L80.625,80.625L80.625,80.625z">
 </path>
 </svg>
 </a>
-</p>
-
-
-<!--
-    <p class="form"><input type="email" name="email" required="true" placeholder="Email"></input>
-    </p>
-    <p class="form"><input type="text" name="first_name" required="true" placeholder="First"></input>
-    </p>
-    <p class="form"><input type="text" name="last_name" required="true" placeholder="Last"></input>
-    </p>
-    <p class="form"><textarea name="comments" required="false" placeholder="Message"></textarea>
-    </p>
-    <input type="submit" name='submit' value="submit"></input>-->
-
-
-
-
+</div>
 
 </div>

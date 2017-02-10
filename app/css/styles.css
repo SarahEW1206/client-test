@@ -8252,16 +8252,14 @@ span.bolder {
 }
 
 input {
-  margin-left: 5%;
   border-radius: 5px;
   width: 60%;
 }
 
 textarea {
-  margin-left: 5%;
   border-radius: 5px;
-  width: 60%;
-  height: 150px;
+  width: 90%;
+  height: 100px;
   border: none;
 }
 
@@ -8272,6 +8270,16 @@ textarea {
 
 #emailLink:hover {
   font-weight: bolder;
+}
+
+#submit {
+  margin-left: 5%;
+  width: 30%;
+}
+
+#contactSocial {
+  margin-left: 5%;
+  padding-bottom: 5%;
 }
 
 #modalLogo {

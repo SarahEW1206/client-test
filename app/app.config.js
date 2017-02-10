@@ -29,6 +29,7 @@ var app = angular.module('sassApp').
                     controller: "ContactCtrl"
                 }).
 
+
                 otherwise('/');
         }
     ]);
