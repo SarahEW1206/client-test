@@ -37,7 +37,7 @@ margin-right: auto;
 
 #squareTwo {
     float: left;
-    background-image: url("/app/images/beach.jpeg");
+    background-image: url("/sarah/SassafrasBizSite/app/images/beach.jpeg");
     background-size: cover;
     width: calc(100%/3);
     padding-top: calc(100%/3); /* 1:1 Aspect Ratio */
@@ -55,7 +55,7 @@ margin-right: auto;
 
 #squareFour {
     float: left;
-    background-image: url("/app/images/graffiti.jpeg");
+    background-image: url("/sarah/SassafrasBizSite/app/images/graffiti.jpeg");
     background-size: cover;
     width: calc(100%/3);
     padding-top: calc(100%/3); /* 1:1 Aspect Ratio */
@@ -75,7 +75,7 @@ margin-right: auto;
 #squareSix {
     float: left;
     // background-color: purple;
-    background-image: url("/app/images/wildflowers.jpg");
+    background-image: url("/sarah/SassafrasBizSite/app/images/wildflowers.jpg");
     background-size: cover;
     width: calc(100%/3);
     padding-top: calc(100%/3); /* 1:1 Aspect Ratio */
@@ -94,7 +94,7 @@ margin-right: auto;
 
 #squareEight {
     float: left;
-    background-image: url("/app/images/chalk.jpeg");
+    background-image: url("/sarah/SassafrasBizSite/app/images/chalk.jpeg");
     background-size: cover;
     width: calc(100%/3);
     padding-top: calc(100%/3); /* 1:1 Aspect Ratio */
@@ -118,8 +118,8 @@ margin-right: auto;
     bottom: 0;
     right: 0;
     color: white;
-    font-family: "Futura, "Century Gothic", AppleGothic, sans-serif";
-   font-weight: lighter;
+font-family: 'Montserrat', sans-serif;
+   font-weight: 100;
    font-size: 150%;
    letter-spacing: 2px;
 }

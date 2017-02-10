@@ -25,6 +25,8 @@ input {
 	width: 60%;
 }
 
+
+
 textarea {
 	border-radius: 5px;
 	width: 90%;
@@ -44,6 +46,13 @@ textarea {
 #submit {
 	margin-left: 5%;
 	width: 30%;
+	background-color: rgb(31,178,111);
+	border: none;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#submit:hover {
+	transform: translateY(2px);
 }
 
 #contactSocial {
@@ -51,4 +60,23 @@ textarea {
 	padding-bottom: 5%;
 }
 
+#contactSocial svg:hover {
+	transform: translateY(2px);
+}
+
+p.inputText {
+	margin-left: 5%;
+	margin-right: 5%;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+   font-size: 100%;
+   letter-spacing: 1.5px;
+}
+
+label {
+font-family: 'Montserrat', sans-serif;
+font-weight: 300;
+color: white;
+
+}
 

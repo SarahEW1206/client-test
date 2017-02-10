@@ -7949,22 +7949,20 @@ ul.quickNav {
   padding-left: 0;
   position: relative;
   margin-top: -99.7%;
-  font-family: "Futura, " Century Gothic ", AppleGothic, sans-serif";
-  font-weight: lighter;
+  font-family: 'Montserrat', sans-serif;
   font-size: 100%;
   letter-spacing: 2px;
 }
 
 ul.quickNav li {
   list-style: none;
-  font-weight: lighter;
+  font-weight: 300;
 }
 
 ul.quickNav a {
   display: flex;
   justify-content: center;
   flex-grow: 1;
-  font-weight: lighter;
   text-decoration: none;
   background-color: white;
   margin-right: 1px;
@@ -7978,7 +7976,7 @@ p.title {
   padding-top: 2rem;
   margin-left: 5%;
   color: white;
-  font-family: "Futura, " Century Gothic ", AppleGothic, sans-serif";
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-size: 150%;
   letter-spacing: 2px;
@@ -7988,10 +7986,10 @@ p.description {
   margin-left: 5%;
   margin-right: 5%;
   color: white;
-  font-family: "Futura, " Century Gothic ", AppleGothic, sans-serif";
-  font-weight: lighter;
+  font-family: 'Maitree', serif;
+  font-weight: 200;
   font-size: 100%;
-  letter-spacing: 1.5px;
+  letter-spacing: 1.2px;
 }
 
 .thumb {
@@ -8048,7 +8046,7 @@ p.description {
 
 #squareTwo {
   float: left;
-  background-image: url("/app/images/beach.jpeg");
+  background-image: url("/sarah/SassafrasBizSite/app/images/beach.jpeg");
   background-size: cover;
   width: calc(100%/3);
   padding-top: calc(100%/3);
@@ -8070,7 +8068,7 @@ p.description {
 
 #squareFour {
   float: left;
-  background-image: url("/app/images/graffiti.jpeg");
+  background-image: url("/sarah/SassafrasBizSite/app/images/graffiti.jpeg");
   background-size: cover;
   width: calc(100%/3);
   padding-top: calc(100%/3);
@@ -8093,7 +8091,7 @@ p.description {
 
 #squareSix {
   float: left;
-  background-image: url("/app/images/wildflowers.jpg");
+  background-image: url("/sarah/SassafrasBizSite/app/images/wildflowers.jpg");
   background-size: cover;
   width: calc(100%/3);
   padding-top: calc(100%/3);
@@ -8116,7 +8114,7 @@ p.description {
 
 #squareEight {
   float: left;
-  background-image: url("/app/images/chalk.jpeg");
+  background-image: url("/sarah/SassafrasBizSite/app/images/chalk.jpeg");
   background-size: cover;
   width: calc(100%/3);
   padding-top: calc(100%/3);
@@ -8145,8 +8143,8 @@ p.description {
   bottom: 0;
   right: 0;
   color: white;
-  font-family: "Futura, " Century Gothic ", AppleGothic, sans-serif";
-  font-weight: lighter;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
   font-size: 150%;
   letter-spacing: 2px;
 }
@@ -8275,11 +8273,37 @@ textarea {
 #submit {
   margin-left: 5%;
   width: 30%;
+  background-color: #1fb26f;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#submit:hover {
+  transform: translateY(2px);
 }
 
 #contactSocial {
   margin-left: 5%;
   padding-bottom: 5%;
+}
+
+#contactSocial svg:hover {
+  transform: translateY(2px);
+}
+
+p.inputText {
+  margin-left: 5%;
+  margin-right: 5%;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  letter-spacing: 1.5px;
+}
+
+label {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: white;
 }
 
 #modalLogo {
