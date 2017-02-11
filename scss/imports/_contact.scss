@@ -22,10 +22,9 @@ span.bolder {
 
 input {
 	border-radius: 5px;
+	border: none;
 	width: 60%;
 }
-
-
 
 textarea {
 	border-radius: 5px;
@@ -45,10 +44,11 @@ textarea {
 
 #submit {
 	margin-left: 5%;
-	width: 30%;
+	width: 25%;
 	background-color: rgb(31,178,111);
 	border: none;
 	font-family: 'Montserrat', sans-serif;
+	padding: 8px;
 }
 
 #submit:hover {

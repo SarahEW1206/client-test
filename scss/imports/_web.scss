@@ -14,3 +14,28 @@ margin-top: 0;
 	background-color: rgba(0,155,188,0);
 	color: white;
 }
+
+p.sampleLink a{
+	margin-left: 5%;
+	margin-bottom: 1rem;
+    color: rgba(0,155,188,1);;
+    font-family: 'Maitree', serif;
+   font-weight: 200;
+   font-size: 100%;
+   letter-spacing: 1.2px;
+
+}
+
+
+p.sampleLink a{
+   background-color: white;
+   padding: 0 .5rem;
+	text-decoration: none;
+
+}
+
+p.sampleLink a:hover {
+	text-decoration: none;
+	font-weight: 700;
+}
+

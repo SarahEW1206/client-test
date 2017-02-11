@@ -7994,8 +7994,8 @@ p.description {
 
 .thumb {
   width: 30%;
-  margin-top: .5rem;
   margin-left: 5%;
+  margin-bottom: 1rem;
 }
 
 @media (min-width: 525px) {
@@ -8019,6 +8019,44 @@ p.description {
 
 #linkedin-square {
   fill: rgba(31, 178, 111, 0.9);
+}
+
+#thankYouDiv {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#thankYouDiv p {
+  font-family: 'Maitree', serif;
+  font-size: 150%;
+}
+
+#thankYouDiv h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 150%;
+}
+
+#galleryDiv {
+  width: 100%;
+  margin: 2rem auto;
+  background-color: #1fb26f;
+}
+
+#galleryDiv img {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+#galleryDiv p.detail {
+  margin-left: 5%;
+  margin-right: 5%;
+  color: white;
+  font-family: 'Maitree', serif;
+  font-weight: 200;
+  font-size: 100%;
+  letter-spacing: 1.2px;
 }
 
 .grid {
@@ -8168,6 +8206,27 @@ p.description {
   color: white;
 }
 
+p.sampleLink a {
+  margin-left: 5%;
+  margin-bottom: 1rem;
+  color: #009bbc;
+  font-family: 'Maitree', serif;
+  font-weight: 200;
+  font-size: 100%;
+  letter-spacing: 1.2px;
+}
+
+p.sampleLink a {
+  background-color: white;
+  padding: 0 .5rem;
+  text-decoration: none;
+}
+
+p.sampleLink a:hover {
+  text-decoration: none;
+  font-weight: 700;
+}
+
 .grid#contentSquare {
   background-color: rgba(118, 88, 134, 0.9);
   width: 100%;
@@ -8251,6 +8310,7 @@ span.bolder {
 
 input {
   border-radius: 5px;
+  border: none;
   width: 60%;
 }
 
@@ -8272,10 +8332,11 @@ textarea {
 
 #submit {
   margin-left: 5%;
-  width: 30%;
+  width: 25%;
   background-color: #1fb26f;
   border: none;
   font-family: 'Montserrat', sans-serif;
+  padding: 8px;
 }
 
 #submit:hover {
