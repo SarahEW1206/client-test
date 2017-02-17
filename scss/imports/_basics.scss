@@ -180,6 +180,31 @@ p.description {
    letter-spacing: 1.2px;
 }
 
+.generalList {
+	margin-left: 5%;
+	margin-right: 5%;
+    color: white;
+    font-family: 'Maitree', serif;
+   font-weight: 200;
+   font-size: 100%;
+   letter-spacing: 1.2px;
+   line-height: 1;
+   padding-bottom: 1rem;
+
+   li {
+	   margin-top: 1rem;
+   }
+
+   a {
+	   text-decoration: none;
+	   color: white;
+   }	
+
+   a:hover {
+	   font-weight: 500;
+   }
+}
+
 
 
 

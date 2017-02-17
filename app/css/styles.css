@@ -8059,6 +8059,31 @@ p.description {
   letter-spacing: 1.2px;
 }
 
+.generalList {
+  margin-left: 5%;
+  margin-right: 5%;
+  color: white;
+  font-family: 'Maitree', serif;
+  font-weight: 200;
+  font-size: 100%;
+  letter-spacing: 1.2px;
+  line-height: 1;
+  padding-bottom: 1rem;
+}
+
+.generalList li {
+  margin-top: 1rem;
+}
+
+.generalList a {
+  text-decoration: none;
+  color: white;
+}
+
+.generalList a:hover {
+  font-weight: 500;
+}
+
 .grid {
   width: 100%;
   margin-left: auto;
@@ -8263,6 +8288,15 @@ p.sampleLink a:hover {
 .grid#brandSquare ul.quickNav a:hover {
   background-color: rgba(31, 178, 111, 0);
   color: white;
+}
+
+#headshot {
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 
 .grid#designSquare {

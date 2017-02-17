@@ -16,7 +16,7 @@ var app = angular.module('sassApp').
                     template: '<content-page></content-page>',
                     controller: "ContentCtrl"
                 }).
-                when('/brand', {
+                when('/about', {
                     template: '<brand-page></brand-page>',
                     controller: "BrandCtrl"
                 }).
