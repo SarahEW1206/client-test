@@ -15,6 +15,11 @@ margin-top: 0;
 	color: white;
 }
 
+ .grid#contactSquare ul.quickNav a.selected {
+	background-color: rgba(123,123,123,0);
+	color: white;
+}
+
 span.bolder {
 	font-weight: bolder;
 	color: rgb(31,178,111);

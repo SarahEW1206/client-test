@@ -15,6 +15,11 @@ margin-top: 0;
 	color: white;
 }
 
+ .grid#brandSquare ul.quickNav a.selected {
+	background-color: rgba(31,178,111,0);
+	color: white;
+}
+
 #headshot {
 	width: 40%;
 	display: block;

@@ -65,7 +65,7 @@ margin-right: auto;
 
 #squareFive {
     float: left;
-    background-color: rgb(31,178,111);
+    background-color: deeppink ;
     width: calc(100%/3);
     padding-top: calc(100%/3); /* 1:1 Aspect Ratio */
     position: relative; /* If you want text inside of it */
@@ -84,7 +84,7 @@ margin-right: auto;
 
 #squareSeven {
     float: left;
-    background-color: deeppink;
+    background-color: rgb(31,178,111);;
     width: calc(100%/3);
     padding-top: calc(100%/3); /* 1:1 Aspect Ratio */
     position: relative; /* If you want text inside of it */
@@ -119,6 +119,26 @@ margin-right: auto;
     color: white;
 font-family: 'Montserrat', sans-serif;
    font-weight: 100;
-   font-size: 150%;
+   font-size: 100%;
    letter-spacing: 2px;
+
+   @media (min-width: 450px) {
+		font-size: 120%;
+		}
+
+        @media (min-width: 450px) {
+		font-size: 150%;
+		}
+
+   @media (min-width: 700px) {
+		font-size: 100%;
+		}
+
+        @media (min-width: 800px) {
+		font-size: 120%;
+		}
+
+        @media (min-width: 900px) {
+		font-size: 150%;
+		}
 }

@@ -7778,27 +7778,27 @@ button.close {
 }
 
 .web-background {
-  background-image: url("/app/images/beach.jpeg");
+  background-image: url("/sarah/SassafrasBizSite/app/images/beach.jpeg");
   background-size: cover;
 }
 
 .content-background {
-  background-image: url("/app/images/graffiti.jpeg");
+  background-image: url("/sarah/SassafrasBizSite/app/images/graffiti.jpeg");
   background-size: cover;
 }
 
 .brand-background {
-  background-image: url("/app/images/wildflowers.jpg");
+  background-image: url("/sarah/SassafrasBizSite/app/images/wildflowers.jpg");
   background-size: cover;
 }
 
 .design-background {
-  background-image: url("/app/images/chalk.jpeg");
+  background-image: url("/sarah/SassafrasBizSite/app/images/chalk.jpeg");
   background-size: cover;
 }
 
 .contact-background {
-  background-image: url("/app/images/typewriter.jpeg");
+  background-image: url("/sarah/SassafrasBizSite/app/images/typewriter.jpeg");
   background-size: cover;
 }
 
@@ -7951,7 +7951,7 @@ ul.quickNav {
   margin-top: -99.7%;
   font-family: 'Montserrat', sans-serif;
   font-size: 100%;
-  letter-spacing: 2px;
+  letter-spacing: 1.6px;
 }
 
 ul.quickNav li {
@@ -7966,6 +7966,7 @@ ul.quickNav a {
   text-decoration: none;
   background-color: white;
   margin-right: 1px;
+  color: rgba(0, 0, 0, 0.7);
 }
 
 ul.quickNav a#last {
@@ -8143,7 +8144,7 @@ p.description {
 
 #squareFive {
   float: left;
-  background-color: #1fb26f;
+  background-color: deeppink;
   width: calc(100%/3);
   padding-top: calc(100%/3);
   /* 1:1 Aspect Ratio */
@@ -8166,7 +8167,7 @@ p.description {
 
 #squareSeven {
   float: left;
-  background-color: deeppink;
+  background-color: #1fb26f;
   width: calc(100%/3);
   padding-top: calc(100%/3);
   /* 1:1 Aspect Ratio */
@@ -8208,8 +8209,38 @@ p.description {
   color: white;
   font-family: 'Montserrat', sans-serif;
   font-weight: 100;
-  font-size: 150%;
+  font-size: 100%;
   letter-spacing: 2px;
+}
+
+@media (min-width: 450px) {
+  .text {
+    font-size: 120%;
+  }
+}
+
+@media (min-width: 450px) {
+  .text {
+    font-size: 150%;
+  }
+}
+
+@media (min-width: 700px) {
+  .text {
+    font-size: 100%;
+  }
+}
+
+@media (min-width: 800px) {
+  .text {
+    font-size: 120%;
+  }
+}
+
+@media (min-width: 900px) {
+  .text {
+    font-size: 150%;
+  }
 }
 
 .grid#webSquare {
@@ -8227,6 +8258,11 @@ p.description {
 }
 
 .grid#webSquare ul.quickNav a:hover {
+  background-color: rgba(0, 155, 188, 0);
+  color: white;
+}
+
+.grid#webSquare ul.quickNav a.selected {
   background-color: rgba(0, 155, 188, 0);
   color: white;
 }
@@ -8271,6 +8307,11 @@ p.sampleLink a:hover {
   color: white;
 }
 
+.grid#contentSquare ul.quickNav a.selected {
+  background-color: rgba(246, 201, 0, 0);
+  color: white;
+}
+
 .grid#brandSquare {
   background-color: rgba(31, 178, 111, 0.9);
   width: 100%;
@@ -8286,6 +8327,11 @@ p.sampleLink a:hover {
 }
 
 .grid#brandSquare ul.quickNav a:hover {
+  background-color: rgba(31, 178, 111, 0);
+  color: white;
+}
+
+.grid#brandSquare ul.quickNav a.selected {
   background-color: rgba(31, 178, 111, 0);
   color: white;
 }
@@ -8318,6 +8364,11 @@ p.sampleLink a:hover {
   color: white;
 }
 
+.grid#designSquare ul.quickNav a.selected {
+  background-color: rgba(246, 201, 0, 0);
+  color: white;
+}
+
 .grid#contactSquare {
   background-color: rgba(123, 123, 123, 0.9);
   width: 101%;
@@ -8333,6 +8384,11 @@ p.sampleLink a:hover {
 }
 
 .grid#contactSquare ul.quickNav a:hover {
+  background-color: rgba(123, 123, 123, 0);
+  color: white;
+}
+
+.grid#contactSquare ul.quickNav a.selected {
   background-color: rgba(123, 123, 123, 0);
   color: white;
 }
