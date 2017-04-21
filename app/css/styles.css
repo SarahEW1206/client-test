@@ -7778,27 +7778,27 @@ button.close {
 }
 
 .web-background {
-  background-image: url("/sarah/SassafrasBizSite/app/images/beach.jpeg");
+  background-image: url("/images/beach.jpeg");
   background-size: cover;
 }
 
 .content-background {
-  background-image: url("/sarah/SassafrasBizSite/app/images/graffiti.jpeg");
+  background-image: url("/images/graffiti.jpeg");
   background-size: cover;
 }
 
 .brand-background {
-  background-image: url("/sarah/SassafrasBizSite/app/images/wildflowers.jpg");
+  background-image: url("/images/wildflowers.jpg");
   background-size: cover;
 }
 
 .design-background {
-  background-image: url("/sarah/SassafrasBizSite/app/images/chalk.jpeg");
+  background-image: url("/images/chalk.jpeg");
   background-size: cover;
 }
 
 .contact-background {
-  background-image: url("/sarah/SassafrasBizSite/app/images/typewriter.jpeg");
+  background-image: url("/images/typewriter.jpeg");
   background-size: cover;
 }
 
@@ -8110,7 +8110,7 @@ p.description {
 
 #squareTwo {
   float: left;
-  background-image: url("/sarah/SassafrasBizSite/app/images/beach.jpeg");
+  background-image: url("/images/beach.jpeg");
   background-size: cover;
   width: calc(100%/3);
   padding-top: calc(100%/3);
@@ -8132,7 +8132,7 @@ p.description {
 
 #squareFour {
   float: left;
-  background-image: url("/sarah/SassafrasBizSite/app/images/graffiti.jpeg");
+  background-image: url("/images/graffiti.jpeg");
   background-size: cover;
   width: calc(100%/3);
   padding-top: calc(100%/3);
@@ -8155,7 +8155,7 @@ p.description {
 
 #squareSix {
   float: left;
-  background-image: url("/sarah/SassafrasBizSite/app/images/wildflowers.jpg");
+  background-image: url("/images/wildflowers.jpg");
   background-size: cover;
   width: calc(100%/3);
   padding-top: calc(100%/3);
@@ -8178,7 +8178,7 @@ p.description {
 
 #squareEight {
   float: left;
-  background-image: url("/sarah/SassafrasBizSite/app/images/chalk.jpeg");
+  background-image: url("/images/chalk.jpeg");
   background-size: cover;
   width: calc(100%/3);
   padding-top: calc(100%/3);
