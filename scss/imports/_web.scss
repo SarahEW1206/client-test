@@ -23,7 +23,7 @@ margin-top: 0;
 p.sampleLink a{
 	margin-left: 5%;
 	margin-bottom: 1rem;
-    color: rgba(0,155,188,1);;
+    color: rgba(255,255,255,1);
     font-family: 'Maitree', serif;
    font-weight: 200;
    font-size: 100%;
@@ -33,9 +33,10 @@ p.sampleLink a{
 
 
 p.sampleLink a{
-   background-color: white;
+   background-color: rgba(0,0,0,.1);
    padding: 0 .5rem;
 	text-decoration: none;
+	color: white;
 
 }
 

@@ -8085,6 +8085,24 @@ p.description {
   font-weight: 500;
 }
 
+.buttonList {
+  list-style: none;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: white;
+  font-family: 'Maitree', serif;
+  font-weight: 200;
+  font-size: 100%;
+  letter-spacing: 1.2px;
+  line-height: 1;
+  padding-bottom: 1rem;
+  padding-left: 0;
+}
+
+.buttonList li {
+  margin-top: .5rem;
+}
+
 .grid {
   width: 100%;
   margin-left: auto;
@@ -8270,7 +8288,7 @@ p.description {
 p.sampleLink a {
   margin-left: 5%;
   margin-bottom: 1rem;
-  color: #009bbc;
+  color: white;
   font-family: 'Maitree', serif;
   font-weight: 200;
   font-size: 100%;
@@ -8278,9 +8296,10 @@ p.sampleLink a {
 }
 
 p.sampleLink a {
-  background-color: white;
+  background-color: rgba(0, 0, 0, 0.1);
   padding: 0 .5rem;
   text-decoration: none;
+  color: white;
 }
 
 p.sampleLink a:hover {
@@ -8490,6 +8509,11 @@ button.btn.btn-primary {
 
 button.btn.btn-primary:hover {
   font-weight: 700;
+}
+
+.imageDetail {
+  margin-left: 5%;
+  margin-top: 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */

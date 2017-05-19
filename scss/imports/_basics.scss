@@ -192,6 +192,7 @@ p.description {
    letter-spacing: 1.2px;
    line-height: 1;
    padding-bottom: 1rem;
+ 
 
    li {
 	   margin-top: 1rem;
@@ -204,6 +205,24 @@ p.description {
 
    a:hover {
 	   font-weight: 500;
+   }
+}
+
+.buttonList {
+	list-style: none;
+	margin-left: 5%;
+	margin-right: 5%;
+    color: white;
+    font-family: 'Maitree', serif;
+   font-weight: 200;
+   font-size: 100%;
+   letter-spacing: 1.2px;
+   line-height: 1;
+   padding-bottom: 1rem;
+   padding-left: 0;
+
+      li {
+	   margin-top: .5rem;
    }
 }
 
