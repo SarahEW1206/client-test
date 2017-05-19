@@ -8457,8 +8457,39 @@ label {
   color: white;
 }
 
-#modalLogo {
-  width: 100%;
+.modal-header {
+  background-color: rgba(0, 0, 0, 0.7);
+  border: none;
+}
+
+.modalImg {
+  width: 90%;
+  display: block;
+  margin: 10px auto;
+}
+
+h4#myModalLabel.modal-title {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.modal-content {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.close {
+  color: white;
+  opacity: .8;
+}
+
+button.btn.btn-primary {
+  background-color: rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 0px;
+  color: white;
+}
+
+button.btn.btn-primary:hover {
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=styles.css.map */
