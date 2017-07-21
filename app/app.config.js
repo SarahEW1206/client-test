@@ -1,10 +1,12 @@
 var app = angular.module('sassApp').
     config(['$locationProvider', '$routeProvider',
         function config($locationProvider, $routeProvider) {
-        
+
             // $locationProvider.hashPrefix('!');
+
+            //added in order to remove hash from URLs; needed to then add htaccess file to get page refresh to work, and add to htaccess file to get PHP to work.
             $locationProvider.html5Mode(true);
-            
+
             $routeProvider.
                 when('/', {
                     template: '<main-page></main-page>',
