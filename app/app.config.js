@@ -1,7 +1,10 @@
 var app = angular.module('sassApp').
     config(['$locationProvider', '$routeProvider',
         function config($locationProvider, $routeProvider) {
-            $locationProvider.hashPrefix('!');
+        
+            // $locationProvider.hashPrefix('!');
+            $locationProvider.html5Mode(true);
+            
             $routeProvider.
                 when('/', {
                     template: '<main-page></main-page>',
@@ -32,7 +35,11 @@ var app = angular.module('sassApp').
 
                 otherwise('/');
         }
+
+
     ]);
+
+
 
 app.controller("MainCtrl", function ($scope) {
     $scope.pageClass = "page-home";

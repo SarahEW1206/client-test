@@ -1,5 +1,5 @@
 angular.module('sassApp').component('contactPage', {
-    templateUrl: 'contact-page/contact.template.html',
+    templateUrl: '/contact-page/contact.template.html',
     controller: function ContactPageController($scope) {
         var self = this;
 
